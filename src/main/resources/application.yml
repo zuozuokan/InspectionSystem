@@ -1,22 +1,4 @@
-#spring.application.name=Inspection system
 spring:
-  data:
-    redis:
-      host: 124.221.141.62
-      port: 6379
-    #    mongodb
-    mongodb:
-      uri: mongodb://deepseek:zndeepseek@124.221.141.62:27017/deepseek?authSource=deepseek
-  #      SQL??
-  jpa:
-    show-sql: true
-    properties:
-      hibernate:
-        '[format_sql]': true
-        '[highlight_sql]': true
-
-
-  #mysql???????
   datasource:
     url: 'jdbc:mysql://124.221.141.62:3306/zzk?createDatabaseIfNotExist=true'
     username: zzk
